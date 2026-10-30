@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-secure-flows-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://secure-flows.com/
+Secure Flows provides encrypted storage, tenant isolation, hosted login, and session management for no‑code applications, enabling developers to add secure user data handling without building authentication or encryption themselves. The platform offers APIs for data storage, user management, and integration with AI assistants, emphasizing privacy, compliance, and easy integration.
+
+**Areas:** Company · Security · Data-Encryption · No-code · Authentication
+
+## secure-flows-com on APIs.io
+
+Everything profiled for secure-flows-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/secure-flows-com/](https://apis.io/providers/secure-flows-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [secure-flows-com AI Optional API](https://apis.io/apis/secure-flows-com/secure-flows-com-ai-optional-api/) — The ai-optional API from secure-flows-com — 3 operation(s) for ai-optional.
+- [secure-flows-com AI Safe API](https://apis.io/apis/secure-flows-com/secure-flows-com-ai-safe-api/) — Public read-only documentation lookup (no tokens)
+- [secure-flows-com Applications API](https://apis.io/apis/secure-flows-com/secure-flows-com-applications-api/) — Registered applications and redirect allowlists (ADMIN/OWNER)
+- [secure-flows-com Audit API](https://apis.io/apis/secure-flows-com/secure-flows-com-audit-api/) — Workspace audit trail and HTTP API access log (ADMIN/OWNER read)
+- [secure-flows-com Hosted UI API](https://apis.io/apis/secure-flows-com/secure-flows-com-hosted-ui-api/) — Browser entry (Flutter); not a JSON API
+- [secure-flows-com Human Only API](https://apis.io/apis/secure-flows-com/secure-flows-com-human-only-api/) — Human chat surface (SSE); prefer docs search for agents
+- [secure-flows-com Users API](https://apis.io/apis/secure-flows-com/secure-flows-com-users-api/) — Workspace user directory (ADMIN/OWNER)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Secure Flows Com Agentic Access](https://apis.io/agentic-access/secure-flows-com/secure-flows-com-agentic-access/)
+
+#### JSON Schema (13)
+
+The data models the API reads and writes.
+
+- [AssistantChatRequest](https://apis.io/schemas/secure-flows-com/secure-flows-com-assistant-chat-request/)
+- [ClientAppRequest](https://apis.io/schemas/secure-flows-com/secure-flows-com-client-app-request/)
+- [ClientAppResponse](https://apis.io/schemas/secure-flows-com/secure-flows-com-client-app-response/)
+- [CreateSessionResponse](https://apis.io/schemas/secure-flows-com/secure-flows-com-create-session-response/)
+- [DocSearchResponse](https://apis.io/schemas/secure-flows-com/secure-flows-com-doc-search-response/)
+- [GetSessionValueResponse](https://apis.io/schemas/secure-flows-com/secure-flows-com-get-session-value-response/)
+- [SessionIdentityView](https://apis.io/schemas/secure-flows-com/secure-flows-com-session-identity-view/)
+- [SessionRenewResponse](https://apis.io/schemas/secure-flows-com/secure-flows-com-session-renew-response/)
+- [SessionRequest](https://apis.io/schemas/secure-flows-com/secure-flows-com-session-request/)
+- [SetSessionValueRequest](https://apis.io/schemas/secure-flows-com/secure-flows-com-set-session-value-request/)
+- [UserDto](https://apis.io/schemas/secure-flows-com/secure-flows-com-user-dto/)
+- [WorkspaceBillingResponse](https://apis.io/schemas/secure-flows-com/secure-flows-com-workspace-billing-response/)
+- [WorkspaceCreateRequest](https://apis.io/schemas/secure-flows-com/secure-flows-com-workspace-create-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Secure Flows Com Context](https://apis.io/jsonld/secure-flows-com/secure-flows-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [secure-flows-com API Rules](https://apis.io/rules/secure-flows-com/secure-flows-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Secure Flows Com Authentication](https://apis.io/security/secure-flows-com/secure-flows-com-authentication/)
+- [Secure Flows Com Domain Security](https://apis.io/security/secure-flows-com/secure-flows-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Secure Flows Com Plans Pricing](https://apis.io/plans/secure-flows-com/secure-flows-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://secure-flows.com/)
+- [Documentation](https://www.secure-flows.com/docs/)
+- [Getting started](https://www.secure-flows.com/docs/getting-started/)
+- [API reference](https://www.secure-flows.com/docs/openapi/)
+- [Pricing](https://www.secure-flows.com/docs/workspace-management/billing/)
+- [Support](https://www.secure-flows.com/docs/contact/)
+- [Blog](https://www.secure-flows.com/docs/blog/)
+- [Terms of service](https://www.secure-flows.com/docs/legal/terms-of-service/)
+- [Privacy policy](https://www.secure-flows.com/docs/legal/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 49.8** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 59.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 31.6 |
+
+**Agent readiness 40.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/secure-flows-com/](https://apis.io/providers/secure-flows-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for secure-flows-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/secure-flows-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
